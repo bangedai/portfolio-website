@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1" />
+    <title>Projects</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">Prabhat <span>.</span></div>
+
+      <i class="fa-solid fa-bars menu"></i>
+    </div>
+    <div class="menu-items">
+      <!-- <div class="navbars">
+          <div class="logo">Prabhat <span>.</span></div>
+  
+          <i class="fa-solid fa-xmark close"></i>
+        </div> -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="pricing.html">Price</a></li>
+      </ul>
+    </div>
+
+    <div class="jumbo">
+      <div class="des">
+        <h1>
+          <a
+            href=""
+            class="typewrite"
+            data-period="2000"
+            data-type='[ "Hi, Im Prabhat.", "I am Creative.", "I Love to Design.", "I Love to Develop." ]'
+          >
+            <span class="wrap"></span>
+          </a>
+        </h1>
+        <div class="img">
+          <img src="image/main_img.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="projects">
+      <h1>Live Projects</h1>
+      <div class="lprojects">
+        <div class="card">
+          <div class="card-one" data-aos="flip-left">
+            <div class="cardone">
+              <img src="image/IPL.png" alt="" />
+            </div>
+            <div class="imgdes">
+              <h3>IPL 2024 Analysis</h3>
+              <a href=""><h2>Watch the project</h2></a>
+            </div>
+          </div>
+
+          <div class="card-two" data-aos="flip-left">
+            <div class="cardone">
+              <img src="image/credit.png" alt="" />
+            </div>
+            <div class="imgdes">
+              <h3>Credit Analysis</h3>
+              <a href=""><h2>Watch the project</h2></a>
+            </div>
+          </div>
+
+          <div class="card-three" data-aos="flip-left">
+            <div class="cardone">
+              <img src="image/hospilality.png" alt="" />
+            </div>
+            <div class="imgdes">
+              <h3>Revenue Analysis for hospitality domain</h3>
+              <a href=""><h2>Watch the project</h2></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects">
+      <h1>React JS</h1>
+      <div class="lprojects">
+        <div class="card">
+          <div class="card-one" data-aos="flip-left">
+            <div class="cardone">
+              <img src="images/vacation.png" alt="" />
+            </div>
+            <div class="imgdes">
+              <h3>Vacation Rental</h3>
+              <a href=""><h2>Watch the project</h2></a>
+            </div>
+          </div>
+
+          <div class="card-two" data-aos="flip-left">
+            <div class="cardone">
+              <img src="images/vacation.png" alt="" />
+            </div>
+            <div class="imgdes">
+              <h3>Vacation Rental</h3>
+              <a href=""><h2>Watch the project</h2></a>
+            </div>
+          </div>
+
+          <div class="card-three" data-aos="flip-left">
+            <div class="cardone">
+              <img src="images/vacation.png" alt="" />
+            </div>
+            <div class="imgdes">
+              <h3>Vacation Rental</h3>
+              <a href=""><h2>Watch the project</h2></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects">
+      <h1>Extras</h1>
+      <div class="lprojects">
+        <div class="card">
+          <div class="card-one" data-aos="flip-left">
+            <div class="cardone">
+              <img src="images/vacation.png" alt="" />
+            </div>
+            <div class="imgdes">
+              <h3>Vacation Rental</h3>
+              <a href=""><h2>Visit the site</h2></a>
+            </div>
+          </div>
+
+          <div class="card-two" data-aos="flip-left">
+            <div class="cardone">
+              <img src="images/vacation.png" alt="" />
+            </div>
+            <div class="imgdes">
+              <h3>Vacation Rental</h3>
+              <a href=""><h2>Visit the site</h2></a>
+            </div>
+          </div>
+
+          <div class="card-three" data-aos="flip-left">
+            <div class="cardone">
+              <img src="images/vacation.png" alt="" />
+            </div>
+            <div class="imgdes">
+              <h3>Vacation Rental</h3>
+              <a href=""><h2>Visit the site</h2></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let menu = document.querySelector(".menu");
+      //   let close = document.querySelector(".close");
+      let items = document.querySelector(".menu-items");
+
+      menu.addEventListener("click", () => {
+        items.classList.toggle("show");
+      });
+      //   close.addEventListener("click", () => {
+      //     items.classList.toggle("show");
+      //   });
+    </script>
+
+    <script>
+      var TxtType = function (el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = "";
+        this.tick();
+        this.isDeleting = false;
+      };
+
+      TxtType.prototype.tick = function () {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+          this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+          this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) {
+          delta /= 2;
+        }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+          delta = this.period;
+          this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === "") {
+          this.isDeleting = false;
+          this.loopNum++;
+          delta = 500;
+        }
+
+        setTimeout(function () {
+          that.tick();
+        }, delta);
+      };
+
+      window.onload = function () {
+        var elements = document.getElementsByClassName("typewrite");
+        for (var i = 0; i < elements.length; i++) {
+          var toRotate = elements[i].getAttribute("data-type");
+          var period = elements[i].getAttribute("data-period");
+          if (toRotate) {
+            new TxtType(elements[i], JSON.parse(toRotate), period);
+          }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+      };
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
