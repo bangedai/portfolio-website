@@ -258,6 +258,99 @@ a {
   top: 0;
   right: 0;
 }
+.card-four {
+  width: 30%;
+  height: 500px;
+  margin-top: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #1c1d28;
+  border-radius: 10px;
+  opacity: 0.8;
+  margin-bottom: 50px;
+}
+
+.card-four::before {
+  content: "04";
+  color: aliceblue;
+  font-size: 8em;
+  font-weight: 900;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background: #10111b;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.card-five {
+  width: 30%;
+  height: 500px;
+  margin-top: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #1c1d28;
+  border-radius: 10px;
+  opacity: 0.8;
+  margin-bottom: 50px;
+}
+
+.card-five::before {
+  content: "05";
+  color: aliceblue;
+  font-size: 8em;
+  font-weight: 900;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background: #10111b;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.card-six {
+  width: 30%;
+  height: 500px;
+  margin-top: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #1c1d28;
+  border-radius: 10px;
+  opacity: 0.8;
+  margin-bottom: 50px;
+}
+
+.card-six::before {
+  content: "06";
+  color: aliceblue;
+  font-size: 8em;
+  font-weight: 900;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background: #10111b;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 @media only screen and (max-width: 1200px) {
   .des {
     flex-direction: column;
