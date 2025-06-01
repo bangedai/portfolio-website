@@ -92,6 +92,22 @@ a {
 .close:hover {
   color: blue;
 }
+.links {
+  width: 100px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links i {
+  color: aliceblue;
+  font-size: 1.7em;
+}
+.links i:hover {
+   background: linear-gradient(to right, #2b1ae6, #0873ff, #1da9e6, #44ee82);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 .jumbo {
   background: #10111b;
   width: 100%;
@@ -351,6 +367,45 @@ a {
   top: 0;
   right: 0;
 }
+
+.contactme {
+  background: #10111b;
+  text-align: center;
+  color:#fff ;
+  height: auto;
+}
+form {
+  padding-top: 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 400px;
+  
+  align-items: center;
+}
+input {
+  width: 90%;
+  height: 80px;
+  border: none;
+  border-radius: 10px;
+}
+.send {
+  background-color: aliceblue;
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+.aboutme {
+  background: #10111b;
+  text-align: center;
+  color:#fff ;
+  min-height: 400px;
+  padding: 100px 300px;
+  height: auto;
+}
 @media only screen and (max-width: 1200px) {
   .des {
     flex-direction: column;
@@ -362,8 +417,14 @@ a {
   }
   .card-one,
   .card-two,
-  .card-three {
+  .card-three,
+  .card-four,
+  .card-five,
+  .card-six {
     width: 90%;
+  }
+  .aboutme {
+    padding: 50px 20px;
   }
 }
 
@@ -383,7 +444,13 @@ a {
   }
   .card-one,
   .card-two,
-  .card-three {
+  .card-three,
+  .card-four,
+  .card-five,
+  .card-six {
     width: 90%;
+  }
+  .aboutme {
+    padding: 50px 20px;
   }
 }
